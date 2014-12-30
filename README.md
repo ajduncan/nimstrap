@@ -1,6 +1,6 @@
 # nimstrap #
 
-A simple bash script to automate building Nim.
+A simple script to automate building Nim.
 
 ## Usage ##
 

@@ -1,0 +1,10 @@
+sudo: no
+language: bash
+script: bash nimstrap.sh
+notifications:
+  template:
+    - "%{repository}@%{branch}: %{message} (%{build_url})"
+  on_success: change
+  on_failure: change
+  email:
+    - ajduncan@gmail.com
