@@ -1,5 +1,7 @@
 # nimstrap #
 
+[![Build Status](https://travis-ci.org/ajduncan/nimstrap.svg)](https://travis-ci.org/ajduncan/nimstrap)
+
 A simple script to automate building Nim.
 
 ## Usage ##
