@@ -1,0 +1,1 @@
+echo("Nim is ready to go.")
