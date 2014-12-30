@@ -33,7 +33,7 @@ if [ -x $NIMSTRAP_DIR/Nim/bin/nim ]; then
     $NIMSTRAP_DIR/Nim/bin/nim c $NIMSTRAP_DIR/hello.nim > /dev/null 2>&1
     if [ -x $NIMSTRAP_DIR/hello ]; then
         $NIMSTRAP_DIR/hello
-        return
+        exit 0
     else
         echo "Error compiling hello.nim."
         exit 1
